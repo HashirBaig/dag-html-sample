@@ -39,6 +39,11 @@ span,
 
 .tree {
   position: relative;
+  max-height: 350px;
+  min-width: 700px;
+  border: 2px solid rgba(0, 0, 0, 0.445);
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .node {
@@ -199,4 +204,5 @@ span,
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
